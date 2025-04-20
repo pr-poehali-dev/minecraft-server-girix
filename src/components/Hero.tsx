@@ -41,27 +41,13 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl">
-          <div className="bg-card p-6 rounded-lg border border-border text-center flex flex-col items-center">
+        <div className="flex justify-center w-full max-w-4xl">
+          <div className="bg-card p-6 rounded-lg border border-border text-center flex flex-col items-center" style={{maxWidth: "400px"}}>
             <div className="bg-red-500/20 p-3 rounded-full mb-4">
               <span className="text-3xl">💀</span>
             </div>
             <h3 className="minecraft-font text-xl font-bold mb-2">Анархия</h3>
             <p className="text-muted-foreground">Полная свобода действий без модераторов и правил</p>
-          </div>
-          <div className="bg-card p-6 rounded-lg border border-border text-center flex flex-col items-center animate-float">
-            <div className="bg-primary/20 p-3 rounded-full mb-4">
-              <span className="text-3xl">⚔️</span>
-            </div>
-            <h3 className="minecraft-font text-xl font-bold mb-2">PvP</h3>
-            <p className="text-muted-foreground">Сражайся, рейдь базы и выживай в беспощадном мире</p>
-          </div>
-          <div className="bg-card p-6 rounded-lg border border-border text-center flex flex-col items-center">
-            <div className="bg-yellow-500/20 p-3 rounded-full mb-4">
-              <span className="text-3xl">🏚️</span>
-            </div>
-            <h3 className="minecraft-font text-xl font-bold mb-2">Хаос</h3>
-            <p className="text-muted-foreground">Создавай альянсы или уничтожай всё на своём пути</p>
           </div>
         </div>
       </div>
