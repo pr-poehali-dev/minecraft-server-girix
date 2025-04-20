@@ -1,6 +1,6 @@
 import { 
   Shield, 
-  Cpu,, 
+  Cpu, 
   Clock, 
   Activity, 
   Gift, 

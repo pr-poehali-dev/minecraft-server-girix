@@ -3,7 +3,7 @@ import { Copy } from "lucide-react";
 import { toast } from "@/components/ui/use-toast";
 
 const Hero = () => {
-  const serverAddress = "play.girix.ru";
+  const serverAddress = "girix.aternos.me:16260";
 
   const copyServerAddress = () => {
     navigator.clipboard.writeText(serverAddress);
