@@ -18,11 +18,10 @@ const Hero = () => {
       <div className="absolute inset-0 bg-background/70"></div>
       <div className="relative mx-auto max-w-7xl px-6 pt-32 pb-24 flex flex-col items-center justify-center min-h-screen">
         <h1 className="minecraft-font text-4xl md:text-6xl text-center font-bold text-primary mb-6">
-          GIRIX Minecraft
+          GIRIX Anarchy
         </h1>
         <p className="text-xl md:text-2xl text-center max-w-3xl mb-8">
-          Лучший сервер для любителей выживания и приключений! Присоединяйтесь к 
-          нашему сообществу и стройте свои миры вместе с нами.
+          Настоящий анархический сервер Minecraft без правил и ограничений! Здесь царит полная свобода действий.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-12">
           <Button size="lg" className="minecraft-font text-lg">
@@ -44,25 +43,25 @@ const Hero = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl">
           <div className="bg-card p-6 rounded-lg border border-border text-center flex flex-col items-center">
-            <div className="bg-accent/20 p-3 rounded-full mb-4">
-              <span className="text-3xl">🏰</span>
+            <div className="bg-red-500/20 p-3 rounded-full mb-4">
+              <span className="text-3xl">💀</span>
             </div>
-            <h3 className="minecraft-font text-xl font-bold mb-2">Выживание</h3>
-            <p className="text-muted-foreground">Создавай свои строения и выживай в опасном мире</p>
+            <h3 className="minecraft-font text-xl font-bold mb-2">Анархия</h3>
+            <p className="text-muted-foreground">Полная свобода действий без модераторов и правил</p>
           </div>
           <div className="bg-card p-6 rounded-lg border border-border text-center flex flex-col items-center animate-float">
             <div className="bg-primary/20 p-3 rounded-full mb-4">
               <span className="text-3xl">⚔️</span>
             </div>
-            <h3 className="minecraft-font text-xl font-bold mb-2">PvP арены</h3>
-            <p className="text-muted-foreground">Сражайся с другими игроками и докажи свою силу</p>
+            <h3 className="minecraft-font text-xl font-bold mb-2">PvP</h3>
+            <p className="text-muted-foreground">Сражайся, рейдь базы и выживай в беспощадном мире</p>
           </div>
           <div className="bg-card p-6 rounded-lg border border-border text-center flex flex-col items-center">
-            <div className="bg-minecraft-orange/20 p-3 rounded-full mb-4">
-              <span className="text-3xl">👥</span>
+            <div className="bg-yellow-500/20 p-3 rounded-full mb-4">
+              <span className="text-3xl">🏚️</span>
             </div>
-            <h3 className="minecraft-font text-xl font-bold mb-2">Сообщество</h3>
-            <p className="text-muted-foreground">Присоединяйся к дружному комьюнити игроков</p>
+            <h3 className="minecraft-font text-xl font-bold mb-2">Хаос</h3>
+            <p className="text-muted-foreground">Создавай альянсы или уничтожай всё на своём пути</p>
           </div>
         </div>
       </div>
